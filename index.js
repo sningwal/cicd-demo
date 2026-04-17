@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   const now = new Date().toLocaleString();
   const hostname = os.hostname();
 
-  if (req.url === '/health1') {
+  if (req.url === '/health') {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     return res.end(JSON.stringify({
       status: 'OK',
