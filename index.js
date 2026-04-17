@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
     <!DOCTYPE html>
     <html>
     <head>
-      <title>🚀 CI/CD Demo App!</title>
+      <title>CI/CD Demo App!</title>
       <style>
         body {
           margin: 0;
@@ -70,7 +70,7 @@ const server = http.createServer((req, res) => {
         <h1> CI/CD Pipeline Demo version 3</h1>
         <p>Your deployment is working perfectly!!</p>
 
-        <div class="badge">Build Successful</div>
+        <div class="badge">Build Successful!.</div>
 
         <div class="info">
           <p><strong>Time:</strong> ${now}</p>
