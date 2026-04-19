@@ -78,7 +78,7 @@ const server = http.createServer((req, res) => {
         </div>
 
         <div class="footer">
-          Auto-deployed via CI/CD 💡
+          Auto-deployed via CI/CD
         </div>
       </div>
     </body>
